@@ -53,7 +53,7 @@ final class XliffConverter
 
         if (!array_key_exists('xliff_version', $options)) {
             // Set default value for xliff version.
-            $options['xliff_version'] = '2.0';
+            $options['xliff_version'] = '1.2';
         }
 
         return $dumper->formatCatalogue($catalogue, $domain, $options);
